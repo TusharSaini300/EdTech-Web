@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>IT Services</title>
+</head>
+<body>    
+    <section id="main" style="width: 100%;">
+        <div class="navbar">
+            <div class="title">
+                <div class="company-name nunito">InternIQ</div>
+            </div>
+            <div class="nav-links poppins">
+                <a href="#main" style="color: rgb(29, 130, 232);">Home</a>
+                <a href="#about-page">About</a>
+                <a href="#Service-page">Services</a>
+                <a href="#internship-page">Internship</a>
+                <a href="#contact-page">Contact</a>
+                <a href="#FAQ" class="faq" style="color: #fff;">FAQ</a>
+            </div>
+            
+            <div id="toggle" onclick="sidebar()"><i class="fa-solid fa-bars" style="color: #012970;"></i></div>
+            <div class="sidebar">
+                <div class="toggle2" onclick="Hidesidebar()"><i class="fa-solid fa-xmark" style="color: #012970;"></i></div>
+                <a href="#main">Home</a>
+                <a href="#about-page">About</a>
+                <a href="#Service-page">Services</a>
+                <a href="#internship-page">Internship</a>
+                <a href="#contact-page">Contact</a>
+                <a href="#FAQ">FAQ</a>
+            </div>
+                
+            
+        </div>
+        <div class="main-content">
+            <div class="text poppins">
+                <div class="head">Craft Your IT Haven Here</div>
+                <div class="small-text">You Have A Vision. We Have A Team To Get You There</div>
+                <button class="main-btn poppins">Get Started<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="main-img"><img src="main-pic.svg" alt="*Image here"></div>
+        </div>
+    </section>
+    <section id="about-page" style="width: 100%;">
+        <div class="about-content poppins">
+            <div class="head2 blue">WHO WE ARE</div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum minus asperiores porro<br> libero sit placeat error, fugit cupiditate ea, facilis expedita deserunt maxime id assumenda<br> vitae quia suscipit ipsum est.</p> 
+            <button class="main-btn">Read More<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="about-img"><img src="about-pic.svg" alt="*About image"></div>
+
+    </section>
+    <section id="Service-page" style="width: 100%;">
+        <div class="head3 dark-blue poppins">Our Services</div>
+        <div class="cards">
+            <div class="card poppins">
+                <div class="card-img"><img src="webD-pic.svg" alt="*Web Development image"></div>
+                <div class="card-title dark-blue">Web Development</div>
+                <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum fuga nihil modi expedita repellat aspernatur ratione recusandae consequatur </div>
+            </div>
+            <div class="card poppins">
+                <div class="card-img"><img src="code-pic.svg" alt="*programming image"></div>
+                <div class="card-title dark-blue">Programming</div>
+                <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit deserunt qui eum unde inventore obcaecati dolorum neque cum mollitia? Nesciunt</div>
+            </div>
+            <div class="card poppins">
+                <div class="card-img"><img src="design-pic.svg" alt="*Web design image"></div>
+                <div class="card-title dark-blue">Web Design</div>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, ratione aliquid aspernatur laboriosam reiciendis accusantium cumque deleniti </div>
+            </div>
+            <div class="card poppins">
+                <div class="card-img"><img src="data-pic.svg" alt="*Data science image"></div>
+                <div class="card-title dark-blue">Database Management</div>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit, fuga veritatis porro necessitatibus enim delectus assumenda, iure autem earum</div>
+            </div>
+            <div class="card poppins">
+                <div class="card-img"><img src="cloud-pic.svg" alt="*Cloud Computing image"></div>
+                <div class="card-title dark-blue">Cloud Computing</div>
+                <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur minus eum molestiae dolores error dignissimos odit iste placeat, et deleniti</div>
+            </div>
+            <div class="card poppins">
+                <div class="card-img"><img src="ml-pic.svg" alt="*Machine learning image"></div>
+                <div class="card-title dark-blue">Machine Learning</div>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aperiam! Iure facilis dolores ut culpa hic natus molestias error unde</div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="internship-page" style="width: 100%;">
+        <div class="head3 dark-blue poppins">Our Internships</div>
+        <div class="cards">
+            <div class="card card-size-intern poppins intern-card-blue">
+                <div class="card-img"><img src="webD-pic.svg" alt="*Web Development image"></div>
+                <div class="card-title dark-blue">Web Development Internship</div>
+                <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum fuga nihil modi expedita repellat aspernatur ratione recusandae consequatur </div>
+
+                <button class="intern-btn poppins intern-btn-blue">Apply now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="card card-size-intern poppins intern-card-orange">
+                <div class="card-img"><img src="code-pic.svg" alt="*programming image"></div>
+                <div class="card-title dark-blue">Python Internship</div>
+                <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit deserunt qui eum unde inventore obcaecati dolorum neque cum mollitia? Nesciunt</div>
+                <button class="intern-btn poppins intern-btn-orange">Apply now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="card card-size-intern poppins intern-card-green">
+                <div class="card-img"><img src="design-pic.svg" alt="*Web design image"></div>
+                <div class="card-title dark-blue">UI/UX Internship</div>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, ratione aliquid aspernatur laboriosam reiciendis accusantium cumque deleniti </div>
+                <button class="intern-btn poppins intern-btn-green">Apply now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="card card-size-intern poppins intern-card-red">
+                <div class="card-img"><img src="data-pic.svg" alt="*Data science image"></div>
+                <div class="card-title dark-blue">Data Science Internship</div>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit, fuga veritatis porro necessitatibus enim delectus assumenda, iure autem earum</div>
+                <button class="intern-btn poppins intern-btn-red">Apply now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="card card-size-intern poppins intern-card-purple">
+                <div class="card-img"><img src="cloud-pic.svg" alt="*Cloud Computing image"></div>
+                <div class="card-title dark-blue">Android Development Internship</div>
+                <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur minus eum molestiae dolores error dignissimos odit iste placeat, et deleniti</div>
+                <button class="intern-btn poppins intern-btn-purple">Apply now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="card card-size-intern poppins intern-card-pink">
+                <div class="card-img"><img src="ml-pic.svg" alt="*Machine learning image"></div>
+                <div class="card-title dark-blue">Machine Learning Internship</div>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aperiam! Iure facilis dolores ut culpa hic natus molestias error unde</div>
+                <button class="intern-btn poppins intern-btn-pink">Apply now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+        </div>
+    </section>
+    <section id="FAQ" style="width: 100%;">
+        <div class="head3 dark-blue poppins">Frequently Asked Questions</div>
+        <button type="button" class="collapsible poppins dark-blue">Question 1<i class="fa-solid fa-arrow-right"></i></button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos atque aperiam placeat vitae vero, alias recusandae suscipit libero ipsum voluptates, dolore quia voluptatem velit? Itaque possimus autem laboriosam facere.</p>
+        </div>
+        <button type="button" class="collapsible poppins dark-blue">Question 2 <i class="fa-solid fa-arrow-right"></i></button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos atque aperiam placeat vitae vero, alias recusandae suscipit libero ipsum voluptates, dolore quia voluptatem velit? Itaque possimus autem laboriosam facere.</p>
+        </div>
+        <button type="button" class="collapsible poppins dark-blue">Question 3 <i class="fa-solid fa-arrow-right"></i></button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos atque aperiam placeat vitae vero, alias recusandae suscipit libero ipsum voluptates, dolore quia voluptatem velit? Itaque possimus autem laboriosam facere.</p>
+        </div>
+        <button type="button" class="collapsible poppins dark-blue">Question 4 <i class="fa-solid fa-arrow-right"></i></button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos atque aperiam placeat vitae vero, alias recusandae suscipit libero ipsum voluptates, dolore quia voluptatem velit? Itaque possimus autem laboriosam facere.</p>
+        </div>
+        <button type="button" class="collapsible poppins dark-blue">Question 5 <i class="fa-solid fa-arrow-right"></i></button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos atque aperiam placeat vitae vero, alias recusandae suscipit libero ipsum voluptates, dolore quia voluptatem velit? Itaque possimus autem laboriosam facere.</p>
+        </div>
+    </section>
+    <section id="contact-page" style="width: 100%;">
+        <h6 class="popppins blue">CONTACT</h6>
+        <div class="head3 poppins dark-blue">Contact Us</div>
+        <div class="contact-container poppins">
+            <div class="contact-grid">
+                <div class="contact-box">
+                    <i class="fa-solid fa-location-dot fa-2xl" style="color: #1d82e8;"></i>
+                    <div class="contact-box-title dark-blue">Address</div>
+                    <div class="contact-box-para">office aadress is here in dwarka, delhi</div>
+                </div>
+                <div class="contact-box">
+                    <i class="fa-solid fa-phone fa-2xl" style="color: #1d82e8;"></i>
+                    <div class="contact-box-title dark-blue">Call Us</div>
+                    <div class="contact-box-para">+91 **********</div>
+                </div>
+                <div class="contact-box">
+                    <i class="fa-regular fa-envelope fa-2xl" style="color: #1d82e8;"></i>
+                    <div class="contact-box-title dark-blue">Email Us</div>
+                    <div class="contact-box-para">InternIQ@gmail.com</div>
+                </div>
+                <div class="contact-box">
+                    <i class="fa-regular fa-clock fa-2xl" style="color: #1d82e8;"></i>
+                    <div class="contact-box-title dark-blue">Open Hours</div>
+                    <div class="contact-box-para">Monday to friday</div>
+                    <div class="contact-box-para">9am to 6pm</div>
+                </div>
+            </div>
+            <form name="myForm" onsubmit="return validateForm()" method="POST">
+                <h1 class="head3 poppins blue circle">Register</h1>
+                
+                <div id="frontname">
+                    <input type="text" name="fname" placeholder="Name:" id="name">
+                    <b><span class="error"></span></b>
+                </div>
+                <div id="Phone">
+                    <input type="number" name="phone" placeholder="Phone:" id="phone">
+                    <b><span class="error"></span></b>
+                </div>
+                <div id="password1">
+                    <input type="password" name="password1" placeholder="Password:" id="pass">
+                    <b><span class="error"></span></b>
+                </div>
+                <div id="password2">
+                    <input type="password" name="password2" placeholder="Confirm Password:" id="pass">
+                    <b><span class="error"></span></b>
+                </div>
+                <button type="submit" class="btn1">Sign Up</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-box">
+            <div class="footer-name dark-blue nunito">InternIQ</div>
+            <p>Craft Your Haven Here</p>
+            <div class="social-icons">
+                <i class="fa-brands fa-twitter fa-xl" style="color: #012970;"></i>
+                <i class="fa-brands fa-instagram fa-xl" style="color: #012970;"></i>
+                <i class="fa-brands fa-linkedin fa-xl" style="color: #012970;"></i>
+            </div>
+        </div>
+        <div class="footer-box">
+            <div class="footer-name next dark-blue nunito">USEFUL LINKS</div>
+            <div class="links">
+                <a href="#main">Home</a>
+                <a href="#about-page">About</a>
+                <a href="#Service-page">Services</a>
+                <a href="#internship-page">Internship</a>
+                <a href="#contact-page">Contact</a>
+                <a href="#FAQ">FAQ</a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <div class="footer-name next dark-blue nunito">OUR SERVICES</div>
+            <div class="links">
+                <a href="#">Web Development</a>
+                <a href="#">Cloud Computing</a>
+                <a href="#">Database Management</a>
+                <a href="#">Machine Learning</a>
+                <a href="#">Web Design</a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <div class="footer-name next dark-blue nunito">CONTACT US</div>
+            <div class="address">office aadress is here in dwarka, delhi</div>
+            <div class="phone-num">Phone: +91 **********</div>
+            <div class="email">Email: InternIQ@gmail.com</div>
+        </div>
+    </footer>
+   <script src="main.js"></script>
+</body>
+</html>
